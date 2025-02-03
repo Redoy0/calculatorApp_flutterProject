@@ -1,5 +1,5 @@
 name: mycalculator
-description: "A new Flutter project."
+description: "I made a calculator mobile application using flutter"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -31,16 +31,23 @@ dependencies:
   flutter:
     sdk: flutter
 
-
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   math_expressions: ^2.6.0
+  icons_launcher: ^3.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
+icons_launcher:
+  image_path: "assets/images/cal_icon.png"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
